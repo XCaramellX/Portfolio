@@ -1,18 +1,47 @@
 
 body {
-   background-color: lightgray
+   background-color: lightgray;
 }
 
 header{
-   margin-top: 5%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: lightgray;
+   padding: 10px;
+   margin-bottom: 20px;
 }
 
+nav ul{
+   list-style: none;
+   padding: 10px;
+   display: flex;
+   border-radius: 20px;
+   background-color: white;
+}
 
+nav li {
+   margin: 1 10px;
+   
+}
 
+nav a{
+   text-decoration: none;
+   color: black;
+   padding: 5px 10px;;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+
+nav a:hover{
+ background-color: darkorchid;
+ border-radius: 20px;
+}
 
 .nameBox {
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    font-size: 50px;
-   margin-left: 5%;
+   margin-top: 10%;
+   margin-left: 10%;
    color: darkorchid;
 }
